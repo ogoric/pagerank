@@ -30,6 +30,8 @@ int main(int argc, char *argv[]){
     Queue urlQ = grabCollection();
     showQueue(urlQ);//testing
     
+    
+    
     //int maxURLs = 0;
     
     //count urls in list

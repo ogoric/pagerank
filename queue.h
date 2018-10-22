@@ -14,5 +14,6 @@ void enterQueue(Queue,char *);
 char *leaveQueue(Queue);
 int  emptyQueue(Queue);
 void showQueue(Queue q);
+int queueIsEmpty(Queue);
 
 #endif

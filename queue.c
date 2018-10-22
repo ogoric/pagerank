@@ -110,6 +110,11 @@ void showQueue(Queue q)
 	}
 }
 
+int queueIsEmpty(Queue q)
+{
+	return (q->front == NULL);
+}
+
 // Helper functions
 
 static Link newNode(char *str)
